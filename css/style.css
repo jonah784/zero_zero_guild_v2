@@ -414,7 +414,11 @@ a:hover { color: var(--gold-bright); }
   color: var(--gold-muted);
 }
 .diff-card--us .bullet-list li {
+  color: var(--text-mid);
+}
+.diff-card--us .bullet-list li strong {
   color: var(--text);
+  font-weight: 700;
 }
 
 /* ============ UNFAIR ADVANTAGE (dark) ============ */
