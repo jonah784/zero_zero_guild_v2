@@ -55,7 +55,7 @@ a:hover { color: var(--gold-bright); }
   padding: 1.5rem 2rem;
 }
 .nav__logo {
-  height: 200px;
+  height: 400px;
   width: auto;
   opacity: 0.8;
   transition: opacity 0.2s;
@@ -615,7 +615,7 @@ a:hover { color: var(--gold-bright); }
 /* ============ RESPONSIVE ============ */
 @media (max-width: 768px) {
   .nav { padding: 1rem 1.2rem; }
-  .nav__logo { height: 140px; }
+  .nav__logo { height: 280px; }
   .founders-grid,
   .case-grid,
   .diff-grid,
@@ -629,7 +629,7 @@ a:hover { color: var(--gold-bright); }
   }
 }
 @media (max-width: 520px) {
-  .nav__logo { height: 110px; }
+  .nav__logo { height: 200px; }
   .form-row { grid-template-columns: 1fr; }
   .hero__inner { padding: 5rem 1.2rem 3rem; }
 }
