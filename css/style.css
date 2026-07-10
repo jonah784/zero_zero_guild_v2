@@ -293,7 +293,7 @@ a:hover { color: var(--gold-bright); }
 }
 .case-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -312,6 +312,21 @@ a:hover { color: var(--gold-bright); }
   color: var(--light-dim);
   margin-bottom: 1rem;
 }
+.case-card--work {
+  border-color: rgba(168, 200, 216, 0.2);
+  background: rgba(168, 200, 216, 0.04);
+}
+.case-card--work h3 {
+  color: var(--blue);
+}
+.case-card--work p {
+  font-family: var(--sans);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 0.75rem;
+}
+.case-card--work p:last-child { margin-bottom: 0; }
 .case-card--after {
   border-color: rgba(201,168,76,0.2);
   background: rgba(201,168,76,0.04);
@@ -603,6 +618,7 @@ a:hover { color: var(--gold-bright); }
 .is-visible .diff-card:nth-child(2),
 .is-visible .inside-card:nth-child(2) { transition-delay: 0.15s; }
 .is-visible .quote-card:nth-child(3),
+.is-visible .case-card:nth-child(3),
 .is-visible .inside-card:nth-child(3) { transition-delay: 0.3s; }
 .is-visible .quote-card,
 .is-visible .case-card,
